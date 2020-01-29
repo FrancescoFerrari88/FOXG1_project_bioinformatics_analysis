@@ -1,0 +1,2 @@
+# FOXG1_project_bioinformatics_analysis
+reproducible snakemake pipeline for FOXG1 project bioinformatics analysis
