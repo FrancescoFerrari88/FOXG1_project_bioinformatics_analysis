@@ -1,0 +1,21 @@
+snakepipe_base_dir:
+  "/data/manke/group/ferrari/PhD_project/reference_datasets/FOXG1_project/RELACS_inVitroHippo/output_snakepipes"
+
+output_dir_RELACS:
+  "output_ChIP-seq_analysis"
+
+blacklist_ChIP-Seq:
+  "/home/ferrari/ferrari/my_repository/blacklist_ChIP-Seq/GRCm38_General_readAttractingRegions.UseThisOne_DKFZ.bed"
+
+mark:
+  - H3K4me3
+  - H3K27ac
+  - H3K4me1
+
+treatment:
+  - Ctr
+  - Foxg1KD
+
+replicate:
+  - rep1
+  - rep2
